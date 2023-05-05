@@ -1,0 +1,111 @@
+@use "../helper/var" as *;
+
+.about {
+    @extend %flex-center !optional;
+    height: 35em;
+    .about-cont {
+        @extend %conts;
+        .about-title {
+            h2 {
+                @extend %titles-h2;
+            }
+        }
+        .advantages-buy {
+            display: flex;
+            gap: 1em;
+            .advantages {
+                width: 50%;
+                ul {
+                    line-height: 3em;
+                    font-size: 1.3em;
+                    font-weight: 500;
+                }
+            }
+            .line {
+                @extend %lines;
+            }
+            .buy {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                gap: 2em;
+                p {                    
+                    font-size: 1.5em;
+                    line-height: 1.6em;
+                }
+                .price {
+                    h2 {
+                        font-size: 2em;
+                        letter-spacing: .1em;
+                        margin: 0 0 0.5em 0;
+                    }
+                    p {
+                        font-size: 2em;
+                        font-weight: 800;
+                    }
+                    span {
+                        text-decoration: line-through;
+                        color: $dark-color;
+                    }
+                }
+                .buttons {
+                    .button-buy {
+                        display: flex;
+                        justify-content: space-between;
+                        .back {
+                            @extend %buttons;
+                            color: #fff;
+                            line-height: 55px;
+                            font-size: 18px;
+                            letter-spacing: 3px;
+                            background-color: $background-color;
+                            text-decoration: none;
+                        }
+                        button {
+                            @extend %buttons;
+                            background-color: #fff;
+                            span {
+                                display: inline-block;
+                                background-color: $background-color;
+                                height: 100%;
+                                width: 100%;
+                                border-radius: 2.5em;
+                                color: #fff;
+                                line-height: 55px;
+                                font-size: 18px;
+                                letter-spacing: 3px;
+                                transition: all 0.5s;
+                                z-index: 1;
+                            }
+                            .container {
+                                position: absolute;
+                                display: flex;
+                                justify-content: center;
+                                z-index: -1;
+                                width: 100%;
+                                left: -3.5em;
+                                transition: all 0.4s;
+                                .icon {
+                                    padding: 0 10px;
+                                    color: $background-color;
+                                    font-size: 1.6em;
+                                    transition: .7s ease;
+                                    &:hover {
+                                        color: $dark-color;
+                                    }
+                                }
+                            }
+                            &:hover span {
+                                width: 0;
+                            }
+                            &:hover .container {
+                                z-index: 2;
+                                left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@mixin body($font-body){
+    body {
+        font-size: $font-body;
+    }
+}
+
+@mixin media(){
+    .cont-form {
+        padding: 0;
+        height: unset;
+        margin-bottom: 5em;
+        .form {
+            justify-content: center;
+            gap: 2em;
+            width: 100%;
+            height: 100dvh;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            #heading {
+                margin: 0.5em;
+                font-size: 3em;
+                font-weight: 600;
+            }
+            .field {
+                height: 5em;
+                gap: 1em;
+                padding: 1em;
+                .icon {
+                    font-size: 0.9em;
+                }
+                .input-field {
+                    font-size: 1.4em;
+                }
+            }
+            .radio-input {
+                height: 15em;
+                .glass {
+                    width: 6.625em;
+                }
+                .selector {
+                    .choice {
+                        margin: 1em 0 1em 0;
+                    }
+                }
+            }
+            .btn {
+                .btn-conteiner {
+                    .btn-content {
+                        padding: 0.7em 1.875em;
+                    }
+                }
+            }
+            &:hover {
+                transform: unset;
+                border: unset;
+            }
+        }
+    }
+    .code {
+        margin: 0;
+        .card {
+            width: 90%;
+            height: 30em;
+            p {
+                font-size: 1.3em;
+            }
+        }
+    }
+    .popup {
+        .card {
+            width: 30em;
+            height: 50dvh;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+@use "./helper/mixin" as *;
+
+// mobile and tablet screen
+@media(max-width: 1024px){
+    @include media();
+}
+
+@media (max-width: 304.98px){
+    @include body(7px);
+}
+
+@media (min-width: 305px) and (max-width: 340.98px){
+    @include body(9px);
+}
+
+@media  (min-width: 341px) and (max-width: 376.98px){
+    @include body(10px);
+}
+
+@media (min-width: 377px) and (max-width: 436.98px){
+    @include body(11px);
+}
+
+@media (min-width: 437px) and (max-width: 496.98px){
+    @include body(13px);
+}
+@media  (min-width: 497px) and (max-width: 536.98px){
+    @include body(15px);
+}
+
+@media (min-width: 537px) and (max-width: 750.89px) {
+    @include body(16px);
+}
+
+
+@media (min-width: 751px) and (max-width: 855.89px) {
+    @include body(18.5px);
+}
+
+@media (min-width: 856px) and (max-width: 991.98px) {
+    @include body(22px);
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    @include body(26px);
+}
+
+// small laptop
+@media (min-width: 1024.1px) and (max-width:1139.98px){
+    @include body(13px);
+}
+
+@media (min-width: 1140px) and (max-width:1197.98px){
+    @include body(14px);
+}
+
+@media (min-width: 1198px) and (max-width:1294.98px){
+    @include body(15px);
+}
+
+// large screan
+@media (min-width: 1440px) and (max-width:1539.98px){
+    @include body(17px);
+}
+
+@media (min-width: 1540px) and (max-width:1699.98px){
+    @include body(19px);
+}
+
+@media (min-width: 1700px)  and (max-width:1923.98px){
+    @include body(21px);
+}
+
+@media (min-width: 1924px)  and (max-width:2023.98px){
+    @include body(23px);
+}
+
+@media (min-width: 2024px)  and (max-width:2169.98px){
+    @include body(24px);
+}
+
+@media (min-width: 2170px)  and (max-width:2365.98px){
+    @include body(26.5px);
+}
+
+@media (min-width: 2366px)  and (max-width:2559.98px){
+    @include body(28.5px);
+}
+
+@media (min-width: 2560px)  and (max-width:2759.98px){
+    @include body(31px);
+}
+
+@media (min-width: 2760px)  and (max-width:2939.98px){
+    @include body(33px);
+}
+
+@media (min-width: 2940px)  and (max-width:3123.98px){
+    @include body(35px);
+}
+
+@media (min-width: 3124px){
+    @include body(37px);
+}

@@ -1,0 +1,35 @@
+$background-color: #171717;
+$color: #d6d6d6;
+$dark-color: #6d6d6d;
+
+%buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    width: 15em;
+    border: none;
+    border-radius: 2.5em;
+}
+%lines {
+    width: 0.2em;
+    height: 100%;
+    background-color: $background-color;
+}
+%conts {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    color: $color;
+    gap: 1em; 
+}
+%flex-center {
+    display: flex;
+    justify-content: center;
+}
+%titles-h2 {
+    font-size: 2.8em;
+    font-weight: 900;
+}

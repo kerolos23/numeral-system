@@ -1,0 +1,204 @@
+@media (max-width: 1024px) {
+  .show-templete {
+    height: unset;
+  }
+  .show-templete .desktop {
+    justify-content: center;
+  }
+  .show-templete .desktop .marvel-device.macbook {
+    display: none;
+  }
+  .show-templete .desktop .marvel-device {
+    margin-top: 3em;
+  }
+  .show-templete .desktop .marvel-device.iphone-x {
+    position: relative;
+    right: unset;
+    bottom: unset;
+    width: 300px;
+    height: 600px;
+  }
+  .show-templete .desktop .marvel-device.iphone-x .notch {
+    width: 170px;
+    height: 30px;
+    left: 25%;
+  }
+  .explain-site {
+    height: unset;
+    margin: 2em 0 0 0;
+  }
+  .explain-site .explain-cont .explain-page {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  .explain-site .explain-cont .explain-page .parg {
+    width: 100%;
+  }
+  .explain-site .explain-cont .explain-page .line {
+    display: none;
+  }
+  .explain-site .explain-cont .explain-page .roles {
+    width: 100%;
+  }
+  .details img {
+    width: 100%;
+    height: 100%;
+  }
+  .details .details-cont .details-image {
+    width: 90%;
+  }
+  .details .details-cont .convert-images {
+    width: 90%;
+  }
+  .about {
+    height: unset;
+    margin: 0 0 4em 0;
+  }
+  .about .about-cont .advantages-buy {
+    flex-direction: column;
+  }
+  .about .about-cont .advantages-buy .advantages {
+    width: 100%;
+  }
+  .about .about-cont .advantages-buy .line {
+    height: 0.2em;
+    width: 90%;
+  }
+  .about .about-cont .advantages-buy .buy {
+    width: 100%;
+  }
+  .about .about-cont .advantages-buy .buy .buttons .button-buy {
+    flex-direction: column-reverse;
+    gap: 1.5em;
+  }
+  .about .about-cont .advantages-buy .buy .buttons .button-buy .back {
+    width: 90%;
+  }
+  .about .about-cont .advantages-buy .buy .buttons .button-buy button {
+    width: 90%;
+    overflow: hidden;
+  }
+  .about .about-cont .advantages-buy .buy .buttons .button-buy button span {
+    border-radius: 0;
+  }
+}
+@media (max-width: 304.98px) {
+  body {
+    font-size: 7px;
+  }
+}
+@media (min-width: 305px) and (max-width: 340.98px) {
+  body {
+    font-size: 9px;
+  }
+}
+@media (min-width: 341px) and (max-width: 376.98px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media (min-width: 377px) and (max-width: 436.98px) {
+  body {
+    font-size: 11px;
+  }
+}
+@media (min-width: 437px) and (max-width: 496.98px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media (min-width: 497px) and (max-width: 536.98px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media (min-width: 537px) and (max-width: 750.89px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (min-width: 751px) and (max-width: 855.89px) {
+  body {
+    font-size: 18.5px;
+  }
+}
+@media (min-width: 856px) and (max-width: 991.98px) {
+  body {
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  body {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1024.1px) and (max-width: 1139.98px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1140px) and (max-width: 1197.98px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1198px) and (max-width: 1294.98px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1539.98px) {
+  body {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1540px) and (max-width: 1699.98px) {
+  body {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 1923.98px) {
+  body {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1924px) and (max-width: 2023.98px) {
+  body {
+    font-size: 23px;
+  }
+}
+@media (min-width: 2024px) and (max-width: 2169.98px) {
+  body {
+    font-size: 24px;
+  }
+}
+@media (min-width: 2170px) and (max-width: 2365.98px) {
+  body {
+    font-size: 26.5px;
+  }
+}
+@media (min-width: 2366px) and (max-width: 2559.98px) {
+  body {
+    font-size: 28.5px;
+  }
+}
+@media (min-width: 2560px) and (max-width: 2759.98px) {
+  body {
+    font-size: 31px;
+  }
+}
+@media (min-width: 2760px) and (max-width: 2939.98px) {
+  body {
+    font-size: 33px;
+  }
+}
+@media (min-width: 2940px) and (max-width: 3123.98px) {
+  body {
+    font-size: 35px;
+  }
+}
+@media (min-width: 3124px) {
+  body {
+    font-size: 37px;
+  }
+}/*# sourceMappingURL=buy-media.css.map */

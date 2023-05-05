@@ -1,0 +1,42 @@
+@use "../helper/var" as *;
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    padding: 1.5em;
+    background-color: $background-color;
+    .copy-right {
+        p {
+            display: flex;
+            align-items: center;
+            font-size: 1.2em;
+            color: $color;
+            span{
+                color: $dark-color;
+                font-weight: 700;
+            }
+        }
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        gap: 1em;
+        a{
+            text-decoration: none;
+            font-size: 1.6em;
+            color: $color;
+            transition: 0.5s ease;
+            -webkit-transition: 0.5s ease;
+            -moz-transition: 0.5s ease;
+            -ms-transition: 0.5s ease;
+            -o-transition: 0.5s ease;
+            &:hover {
+                font-size: 2em;
+                color: $dark-color;
+            }
+        }
+    }
+}

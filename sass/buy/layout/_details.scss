@@ -1,0 +1,71 @@
+@use "../helper/var" as *;
+
+.details {
+    @extend %flex-center;
+    margin: 5em 0 5em 0;
+    .details-cont {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        .details-image {
+            display: flex;
+            width: fit-content;
+            position: relative;
+            margin: 0 auto;
+            box-shadow: 2px 3px 15px #000;
+            border-radius: 1em;
+            overflow: hidden;
+            .input-arrow {
+                position: absolute;
+                left: 10%;
+                top: 25%;
+                transform: rotate(45deg);
+                font-size: 5em;
+                color: $color;
+            }
+            .radio-arrow {
+                position: absolute;
+                right: 10%;
+                bottom: 5%;
+                font-size: 5em;
+                transform: rotate(-45deg);
+                color: $color;
+            }
+        }
+        .details-text {
+            @extend %flex-center;
+            margin: 2em 0 0 0;
+            color: $color;
+            font-size: 1.2em;
+            line-height: 1.6em;
+            text-align: center;
+            p {
+                letter-spacing: .04em;
+                span {
+                    color: $dark-color;
+                }
+            }
+        }
+        .convert-images {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            position: relative;
+            margin: 0 auto;
+            margin: 5em 0 3em 0;
+            gap: 3em;
+            width: 90%;
+            img {
+                box-shadow: 2px 3px 15px #000;
+                border-radius: 1em;
+                width: 100%;
+                height: 100%;
+            }
+            .arrow-down {
+                @extend %flex-center;
+                font-size: 6em;
+                color: $color;
+            }
+        }
+    }
+}

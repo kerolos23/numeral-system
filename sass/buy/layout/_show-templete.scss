@@ -1,0 +1,63 @@
+@use "../helper/var" as *;
+.show-templete {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 1.5em;
+    .desktop {
+        @extend %flex-center !optional;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .marvel-device.macbook {
+            width: 55em;
+            height: 75%;
+            .top-bar {
+                height: 2.5em;
+                top: unset;
+                bottom: -1.25em;
+            }
+            .bottom-bar {
+                height: 1.25em;
+                bottom: 0;
+                top: unset;
+            }
+            .screen {
+                @extend %flex-center !optional;
+                align-items: center;
+                img {
+                    height: 100%;
+                }
+            }
+        }
+        .marvel-device.iphone-x {
+            position: absolute;
+            width: 18em;
+            height: 35em;
+            right: 2.5em;        
+            bottom: -6em;
+            z-index: 999;
+            .notch {
+                width: 10em;
+                height: 2em;
+                left: 6em;
+            }
+            .camera {
+                right: 30px;
+                left: unset;
+            }
+            .sleep {
+                top: 25%;
+            }
+            .screen {
+                @extend %flex-center !optional;
+                align-items: center;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
